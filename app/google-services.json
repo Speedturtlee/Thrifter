@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "593476771243",
+    "project_id": "thrifter-c4a4d",
+    "storage_bucket": "thrifter-c4a4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593476771243:android:45b2caf0655bbe8f7146ee",
+        "android_client_info": {
+          "package_name": "com.example.thrifter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593476771243-lipb2ai9s72hfq11ve7c5hldhc4cgpt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thrifter",
+            "certificate_hash": "542eb94360372513b193c3d852acbf80c462f988"
+          }
+        },
+        {
+          "client_id": "593476771243-pncnpiusbn0uc37h4eeobhfdc8cfafua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0qOIRtRPQGjjv9S3I46CELuGNsKpwQJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593476771243-pncnpiusbn0uc37h4eeobhfdc8cfafua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

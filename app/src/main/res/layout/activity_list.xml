@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".List.ListActivity"
+    android:background="#3C3F41">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/list_toolbar"
+        android:background="@drawable/toolbar_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ihre Angebote"
+            android:textColor="#FFF"
+            android:textSize="30dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/return_button"
+            android:id="@+id/returnButtonList"/>
+
+    </Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_marginTop="75dp"
+        />
+
+    <Button
+        android:id="@+id/addB"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/addcircle_drawable"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
